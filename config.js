@@ -12,7 +12,7 @@ global.email ="admin@giftedtechnexus.co.ke"
 global.location="Kampala,Uganda."
 global.mongodb= process.env.MONGODB_URI || "mongodb+srv://moriceug:ykneyPF1867D9903@clustermorice.sqdmjyk.mongodb.net/?retryWrites=true&w=majority"
 
-global.allowJids= process.env.ALLOW_JID || "256707521863" 
+global.allowJids= process.env.ALLOW_JID || "256786775539" 
 global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
 global.DATABASE_URI = process.env.DATABASE_URL || ""
 
@@ -31,7 +31,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE ||
 
 
 global.devs = "256707521863" // Do Not Change Else Bot Won't Work After Deploying
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "256707521863";
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "256786775539";
 global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "256707521863";
 
 
@@ -40,7 +40,7 @@ global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]
 //========================= [ BOT SETTINGS ] =========================\\
 global.style = process.env.STYLE   || '5',  // put '1' to "5" here to check bot styles
 global.flush = process.env.FLUSH   || "true"; // Make it "true" if bot not responed
-global.gdbye = process.env.GOODBYE || "false"; 
+global.gdbye = process.env.GOODBYE || "true"; 
 global.wlcm  = process.env.WELCOME || "true";  // Make it "false" for disable WELCOME 
 
 global.warncount = process.env.WARN_COUNT || 5,
@@ -48,7 +48,7 @@ global.disablepm = process.env.DISABLE_PM || "false",
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "true", // "true"  to see messages , "log" to open logs , "false" to hide logs messages
 global.userImages= process.env.USER_IMAGES || "https://telegra.ph/file/54efddccf41281ad7ec51.jpg",
-global.waPresence= process.env.WAPRESENCE ||  "unavailable" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
+global.waPresence= process.env.WAPRESENCE ||  "recording" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
@@ -79,10 +79,10 @@ module.exports = {
   VERSION : process.env.VERSION || "2.0.0",
   caption : process.env.CAPTION || "©MORICEDESIGNZ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢɪғᴛᴇᴅ ʙᴏᴛ ᴍᴅᵛ²•⁰•⁰ - ²⁰²⁴ 』```", //*『sᴜʙsᴄʀɪʙᴇ • ɢɪғᴛᴇᴅ ᴛᴇᴄʜ』*\n youtube.com/@giftedtechnexus"),
  
-  author : process.env.PACK_AUTHER|| "MORICEUG",
+  author : process.env.PACK_AUTHER|| "OJF",
   packname: process.env.PACK_NAME || "🇺🇬",
-  botname : process.env.BOT_NAME  || "MORICEUG🇺🇬",
-  ownername:process.env.OWNER_NAME|| "It's MoriceUg",
+  botname : process.env.BOT_NAME  || "O.J.F🇺🇬",
+  ownername:process.env.OWNER_NAME|| "It's Francis",
 
 
   errorChat : process.env.ERROR_CHAT || "",
